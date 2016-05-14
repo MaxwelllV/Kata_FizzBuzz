@@ -25,8 +25,17 @@ public class Test_kata_fizzbuzz {
 	}
 	@Test
 	public void numerosentretres(){
-		String result = kfb.numerotres(3);
+		String result = kfb.numeros(3);
 		assertEquals("Fizz", result);
 	}
-
+	@Test
+	public void numeroscinco(){
+		String result = kfb.numeros(5);
+		assertEquals("Buzz", result);
+	}
+	@Test
+	public void numerostresecinco(){
+		String result = kfb.numeros(15);
+		assertEquals("FizzBuzz", result);
+	}
 }
