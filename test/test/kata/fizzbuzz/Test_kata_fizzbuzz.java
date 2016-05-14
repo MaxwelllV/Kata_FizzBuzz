@@ -3,10 +3,12 @@
  */
 package test.kata.fizzbuzz;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
 import org.junit.Test;
 
-import main.kata.fizzbuzz.Kata_FizzBuzz;
+import main.kata.fizzbuzz.Metodos_Kata_FizzBuzz;
 
 /**
  * @author ZeuX
@@ -15,16 +17,16 @@ import main.kata.fizzbuzz.Kata_FizzBuzz;
 
 public class Test_kata_fizzbuzz {
 
-	private Kata_FizzBuzz kfb;
+	private Metodos_Kata_FizzBuzz kfb;
 	
 	@Before
 	public void setUp() throws Exception{
-		kfb = new Kata_FizzBuzz();
+		kfb = new Metodos_Kata_FizzBuzz();
 	}
 	@Test
 	public void numerosentretres(){
-		Kata_FizzBuzz kfb = new Kata_FizzBuzz();
-		kfb.add(3);
+		String result = kfb.numerotres(3);
+		assertEquals("Fizz", result);
 	}
 
 }
