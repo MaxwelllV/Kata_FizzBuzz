@@ -63,12 +63,12 @@ public class Test_kata_fizzbuzz {
 	}
 	
 	/**
-	 * This test checks if the given number for parameter contains 3 and equals 'Fizz'
+	 * This test checks if the given number for parameter contains 5 and equals 'Buzz'
 	 */
 	
 	@Test
-	public void numerosquecontengantres(){
-		String result = kfb.numeros(13);
-		assertEquals("Fizz", result);
+	public void numerosquecontengancinco(){
+		String result = kfb.numeros(52);
+		assertEquals("Buzz", result);
 	}
 }
