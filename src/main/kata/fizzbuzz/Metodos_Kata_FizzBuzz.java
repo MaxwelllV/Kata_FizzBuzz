@@ -27,6 +27,8 @@ public class Metodos_Kata_FizzBuzz {
 			result = "Buzz";
 		}else if(num%3 == 0){
 			result = "Fizz";
+		}else if(Integer.toString(num).contains("5")){
+			result = "Buzz";
 		}
 		return result;
 	}
