@@ -62,7 +62,6 @@ public class Test_kata_fizzbuzz {
 		assertEquals("FizzBuzz", result);
 	}
 	
-	
 	/**
 	 * This test checks if the given number for parameter is equals 'Buzz'
 	 */
@@ -71,5 +70,15 @@ public class Test_kata_fizzbuzz {
 	public void contienecinco(){
 		String result = kfb.numeros(52);
 		assertEquals("Buzz", result);
+	}
+
+	/**
+	 * This test checks if the given number for parameter is equals 'Fizz'
+	 */
+	
+	@Test
+	public void contienetrese(){
+		String result = kfb.numeros(31);
+		assertEquals("Fizz", result);
 	}
 }

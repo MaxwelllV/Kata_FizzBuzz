@@ -29,7 +29,10 @@ public class Metodos_Kata_FizzBuzz {
 			result = "Fizz";
 		}else if(Integer.toString(num).contains("5")){
 			result = "Buzz";
-		}
+		}else if(Integer.toString(num).contains("3")){
+			result = "Fizz";
+		}		
+
 		return result;
 	}
 }
