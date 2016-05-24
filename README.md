@@ -1,4 +1,4 @@
-Autor: Jorge Dominguez Lorenzo
+Autor: Jorge Dominguez Lorenzo aa
 Versión: 0.1
 Fecha de realización: 14/05/2016
 
